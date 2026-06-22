@@ -1,0 +1,11 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-wrapper { background: linear-gradient(180deg, #1a8a7d 0%, #0d6b61 100%) !important; border-right: none !important; }
+.sidebar-wrapper * { color: white !important; }
+.sidebar-wrapper .sidebar-link { color: white !important; }
+.sidebar-wrapper .sidebar-link.active { background: rgba(255,255,255,0.1) !important; color: white !important; border-radius: 8px; }
+.sidebar-wrapper .stroke-icon { stroke: white !important; }
+.sidebar-wrapper .fill-icon { fill: white !important; }
